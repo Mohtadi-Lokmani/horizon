@@ -1,0 +1,105 @@
+.loginimg{
+    zoom: 1.06;
+}
+
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin-top: -800px;
+  position: relative;
+  background-color: url('../Images/Capture\ d\'écran\ 2025-04-06\ 221523.png') ;
+  overflow: hidden;
+}
+
+
+.login-card {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  color: white;
+  width: 350px;
+}
+
+.login-card h1 {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+.login-container::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+   
+    z-index: 0;
+  }
+  
+  .login-card {
+    z-index: 1;
+    /* Keep the rest */
+  }
+
+.input-group {
+  position: relative;
+  margin-bottom: 20px;
+  background-color: transparent;
+  color: transparent;
+}
+
+.input-group .icon {
+  position: absolute;
+  top: 50%;
+  left: 12px;
+  transform: translateY(-50%);
+  color: #f5822b;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px 12px 12px 40px;
+  background-color: transparent;
+  border: 2px solid #fff6ef;
+  border-radius: 5px;
+  font-size: 14px;
+  outline: none;
+  color: white;
+}
+
+.login-button {
+  width: 100%;
+  padding: 12px;
+  background: white;
+  color: #f5822b;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 3px 3px rgba(0,0,0,0.2);
+}
+
+.login-button:hover {
+  background: #f5822b;
+  color: white;
+  border: 1px solid #fff6ef;
+}
+.input-group {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.input-group input {
+  width: 100%;
+  padding-left: 45px; /* Adjust the padding to make space for the icon */
+  padding-right: 10px; /* Optional: Add padding on the right side */
+  font-size: 16px; /* Optional: Adjust font size for consistency */
+}
+
+.input-group .icon {
+  position: absolute;
+  top: 50%;
+  left: 10px; /* Adjust this to position the icon inside the input */
+  transform: translateY(-50%);
+  font-size: 18px; /* Adjust icon size */
+  color: #ffffff;
+}

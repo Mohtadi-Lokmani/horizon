@@ -1,0 +1,79 @@
+@import "@fortawesome/fontawesome-free/css/all.min.css";
+
+.swiper-container {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .swiper-title {
+    font-size: 35px;
+    font-weight: bold;
+     padding-bottom: 40px;
+    padding-top: 40px;
+    color: #FFAC41;
+    text-transform: uppercase;
+  }
+  
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .team-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px 20px 0px 20px;
+    height: 420px;
+    max-width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .team-image {
+    width: 90%;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  .team-name {
+    margin-top: -40px;
+    padding-bottom: 60px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .team-desc {
+    font-size: 0.9rem;
+    color: #d72323;
+    margin-top: -60px;
+    line-height: 1.5;
+    
+  }
+  
+  .team-social {
+    margin-top: 0px;
+    justify-content: center;
+    margin-left: 20px;
+  }
+  
+  .social-icon {
+    margin: 0 5px;
+    color: #333;
+    font-size: 10px;
+    transition: color 0.2s;
+  }
+  
+  i{
+    padding: 10px;
+  }
+  #i1:hover {
+    color: #000ecb;
+  }
+  #i22:hover {
+    color: #63d5ff;
+  }
+  #i3:hover {
+    color: #00b221;
+  }
+  

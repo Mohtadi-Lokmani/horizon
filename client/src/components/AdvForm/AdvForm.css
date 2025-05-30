@@ -1,0 +1,14 @@
+.all{
+    display: flex;
+    
+}
+.adv {
+    text-transform: uppercase;
+    padding: 50px 230px 50px 280px; 
+    color: #FFAC41;
+ 
+    
+}
+.title{
+    display: flex;
+}

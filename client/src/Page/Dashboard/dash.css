@@ -1,0 +1,120 @@
+.formation-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .formation-title {
+    margin-top:-40px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align:left;
+    color: #000000;
+    margin-bottom: 50px;
+  }
+  
+  .formation-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 30px;
+    font-size: 15px;
+    background-color: #fdfdfd;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.03);
+  }
+  
+  .formation-table th,
+  .formation-table td {
+    padding: 14px 16px;
+    border: 1px solid #ddd;
+    text-align: left;
+    vertical-align: middle;
+  }
+  
+  .formation-table thead {
+    background-color: #ffffff;
+    color: rgba(185, 185, 185, 0.85);
+  }
+  
+  .formation-table tbody tr:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .btn-modifier,
+  .btn-supprimer {
+    padding: 6px 11px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: 5px;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .btn-modifier {
+    background-color:rgba(75, 255, 168, 0.44);
+    border:2px solid green;
+    color:green;
+  }
+  
+  .btn-modifier:hover {
+    background-color:rgb(172, 242, 176);
+  }
+  
+  .btn-supprimer {
+    background-color:rgba(229, 56, 53, 0.44);
+    color: white;
+    border:2px solid red;
+    color:red;
+  }
+  
+  .btn-supprimer:hover {
+    background-color:rgb(255, 131, 131);
+  }
+  .formation-table td {
+    max-width: 220px;     
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .inline-form {
+    padding-top:50px;
+    margin-left:225px;
+    align-items:center;
+    display: flex;
+    flex-direction: row; 
+    gap: 10px;
+    flex-wrap: wrap; 
+  }
+  
+  .inline-input, .inline-textarea {
+    margin-bottom: 10px;
+  }
+  
+  .inline-input {
+    width: 700px; 
+    padding: 8px;
+  }
+  
+  .inline-textarea {
+    width: 700px; 
+    padding-right:40px;
+  }
+  .btnenr{
+    padding: 50px 250px 0px 0px;
+  }
+  .btn-ajouter {
+    background-color: #ffcc00;
+    border: none;
+    padding: 10px 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+    color: #333;
+    border-radius: 5px;
+  }
+  
+  .btn-ajouter:hover {
+    background-color: #f2b600;
+  }
+  

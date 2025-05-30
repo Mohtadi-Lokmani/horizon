@@ -1,0 +1,44 @@
+.logo img {
+    width: 100%;
+  } .navvvv {
+    background-color: #ffffff;
+    color: black;
+    position: fixed;
+    z-index: 200;
+    width: 100%;
+    height: 11%;
+  }   
+  
+  .navbar {
+    display: flex;
+    padding-left: 60px;
+  }
+  .site-title{
+    color: #000;
+    text-decoration: none;
+  } 
+  
+  .lien {
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+  }
+  
+   .ulheader  {
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+  }
+  .site-title{
+    display: flex;
+    padding-left: 40px;
+    align-items: center;
+  }
+  .site-title:hover{
+    color:#ffc94d;
+  }
+
+  

@@ -1,0 +1,68 @@
+.diplome-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+
+  .bts{
+    font-size: 35px;
+    font-weight: bold;
+    padding-bottom: 70px;
+    color: #FFAC41;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 100px;
+  }
+  .diplome-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .diplome-card {
+    display: flex;
+    width: 1200px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .diplome-image {
+    width: 450px;
+    height: auto;
+  }
+  
+  .diplome-content {
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .diplome-title {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .diplome-desc {
+    font-size: 14px;
+    color: #666;
+    margin: 10px 0;
+  }
+  
+  .voir-plus {
+    background: none;
+    border: 2px solid red;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    color: black;
+    border-radius: 5px;
+    transition: all 0.3s;
+  }
+  
+  .voir-plus:hover {
+    background: red;
+    color: white;
+  }
+  

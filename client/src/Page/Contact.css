@@ -1,0 +1,89 @@
+/* Page Background */
+.contact-page {
+    padding-top:100px ;
+    background: #f0f6ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  /* Contact Form Container */
+  .contact-container {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    text-align: center;
+  }
+  
+  /* Form Title */
+  .contact-container h2 {
+    margin-bottom: 5px;
+    font-size: 24px;
+  }
+  
+  .contact-container p {
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 20px;
+  }
+  
+  /* Form Rows */
+  .form-row {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .form-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  .form-group label {
+    font-size: 12px;
+    color: gray;
+    margin-top  : 30px;
+    margin-bottom  : 10px;
+  }
+  
+  /* Input Fields */
+  input,
+  textarea {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 14px;
+    outline: none;
+  }
+  
+  textarea {
+    resize: none;
+    height: 80px;
+  }
+  
+  /* Submit Button */
+  .contact-page button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: #e44d26;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 10px;
+  }
+  
+  .contact-page button:hover {
+    background: #a4381d;
+  }
+  
+ 
+  

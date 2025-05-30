@@ -1,0 +1,54 @@
+.fondateur {
+    display: flex;
+    justify-content: center;
+    background-color: #ff6e6e; 
+    padding-left: 50px;
+    background-size: cover; 
+    background-position: center; 
+  }
+ .fon{
+  font-size: 35px;
+    font-weight: bold;
+    padding-bottom: 70px;
+    color: #FFAC41;
+    text-transform: uppercase;
+    text-align: center;
+ }
+  .fond {
+    flex: 1;
+    color: white;
+  }
+  
+  
+  .texte {
+    text-align: left;
+    max-width: 600px;
+  }
+  
+ .fond h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .highlight {
+    color: yellow; 
+  }
+  
+  .p2 {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+ .fond h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  .image img{
+    width: 70%;
+  }
+  
+ 
+  
